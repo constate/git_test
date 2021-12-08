@@ -9,6 +9,12 @@ app.get("/", (req, res) => {
 
 app.get("/car/input", (req, res) => {
   res.writeHead(200, { "Content-Type": "text/html; charset" });
+  res.write("<h2>자동차 정보 입력</h2>");
+  res.end();
+});
+
+app.get("/car/list", (req, res) => {
+  res.writeHead(200, { "Content-Type": "text/html; charset" });
   res.write("<h2>자동차 목록</h2>");
   res.end();
 });
