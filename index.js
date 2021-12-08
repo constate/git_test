@@ -20,6 +20,8 @@ app.get("/car/list", (req, res) => {
   res.end();
 });
 
+// 원격 내용 
+
 const server = http.createServer(3000, () => {
   console.log("on server port 3000");
 });
