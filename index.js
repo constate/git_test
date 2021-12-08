@@ -20,6 +20,13 @@ app.get("/car/list", (req, res) => {
   res.end();
 });
 
+// 1. 원격 저장소의 내용 임의 수정
+// 2. 지역 저장소의 내용 수정
+// push가 안됨
+// 3. fetch를 이용한 변경 이력 가져오기
+// 4. 원격 브랜치와 지역 브랜치 병합
+// 5. 지역 브랜치 커밋 후 Push
+
 const server = http.createServer(3000, () => {
   console.log("on server port 3000");
 });
