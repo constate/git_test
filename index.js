@@ -27,6 +27,8 @@ app.get("/car/list", (req, res) => {
 // 4. 원격 브랜치와 지역 브랜치 병합
 // 5. 지역 브랜치 커밋 후 Push
 
+// pull test
+
 const server = http.createServer(3000, () => {
   console.log("on server port 3000");
 });
